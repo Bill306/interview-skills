@@ -1,0 +1,4 @@
+interface:
+  display_name: "Interview Skills"
+  short_description: "Research companies, roles, and interviewers"
+  default_prompt: "Use $interview-skills to prepare me for an interview with a company, role, and interviewer if known."
