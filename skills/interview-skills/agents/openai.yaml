@@ -1,4 +1,4 @@
 interface:
   display_name: "Interview Skills"
-  short_description: "Research companies, roles, and interviewers"
-  default_prompt: "Use $interview-skills to prepare me for an interview with a company, role, and interviewer if known."
+  short_description: "Prepare, debrief, and draft interview thank-you emails"
+  default_prompt: "Use $interview-skills to prepare for my interview or review my own interview notes or recording transcript, improve my answers, and draft a thank-you email based on the actual conversation."

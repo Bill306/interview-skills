@@ -1,6 +1,6 @@
 # Interview Skills
 
-Research-backed interview preparation for candidates who want to understand the company, the role, and the people in the room before they walk in.
+Research-backed interview preparation, evidence-based post-interview review, and personalized thank-you email drafts.
 
 ## Why This Exists
 
@@ -13,6 +13,8 @@ This skill helps an agent build a practical interview brief from public sources:
 - Role analysis and function-specific market context
 - Interviewer background checks using public, professional information only
 - Tailored questions, candidate positioning, and likely interview themes
+- Question-by-question review of the user's own interview notes or transcript, keeping actual answers separate from improved answers
+- A prioritized improvement plan, next-round preparation, and a thank-you email grounded in the actual conversation
 
 ## Quick Start
 
@@ -34,11 +36,19 @@ If you know the interviewer, include their name or public profile:
 Use $interview-skills to prepare me for a final round at OpenAI. The role is finance strategy, and my interviewer is Jane Doe, VP Finance.
 ```
 
+For post-interview review, provide your own notes or transcript:
+
+```text
+Use $interview-skills to review my interview transcript. Go question by question through what I actually answered, identify strengths and gaps, improve my answers, and draft a concise thank-you email based on our conversation.
+```
+
+If you provide another candidate's interview experience, the skill extracts question themes and practice suggestions. It does not evaluate your performance or invent a conversation for your thank-you email. Email output is a draft; sending requires a separate explicit instruction.
+
 ## Available Skill
 
 | Skill | What it does | Use when |
 | --- | --- | --- |
-| `interview-skills` | Builds source-backed interview prep briefs across company, role, and interviewer context | Preparing for recruiter screens, hiring manager rounds, technical/functional interviews, final rounds, or executive conversations |
+| `interview-skills` | Builds prep briefs, reviews actual interview evidence, and drafts personalized thank-you emails | Preparing for interviews; reviewing interview notes or transcripts; improving answers and preparing the next round |
 
 ## Example Outputs
 
@@ -67,10 +77,16 @@ interview-skills/
 |-- skills/
 |   `-- interview-skills/
 |       |-- SKILL.md
+|       |-- SKILL.zh-CN.md
 |       |-- agents/
 |       |   `-- openai.yaml
 |       `-- references/
-|           `-- research-checklist.md
+|           |-- research-checklist.md
+|           |-- research-checklist.zh-CN.md
+|           |-- post-interview-review.md
+|           |-- post-interview-review.zh-CN.md
+|           |-- thank-you-email-template.md
+|           `-- thank-you-email-template.zh-CN.md
 |-- examples/
 |-- docs/
 `-- scripts/

@@ -8,8 +8,14 @@ test -f "$ROOT/README.md"
 test -f "$ROOT/LICENSE"
 test -f "$ROOT/AGENTS.md"
 test -f "$SKILL/SKILL.md"
+test -f "$SKILL/SKILL.zh-CN.md"
 test -f "$SKILL/agents/openai.yaml"
 test -f "$SKILL/references/research-checklist.md"
+test -f "$SKILL/references/research-checklist.zh-CN.md"
+test -f "$SKILL/references/post-interview-review.md"
+test -f "$SKILL/references/post-interview-review.zh-CN.md"
+test -f "$SKILL/references/thank-you-email-template.md"
+test -f "$SKILL/references/thank-you-email-template.zh-CN.md"
 
 python3 - "$SKILL/SKILL.md" <<'PY'
 import pathlib
@@ -38,5 +44,12 @@ if len(description) > 1024:
     raise SystemExit("Description too long")
 if "<" in description or ">" in description:
     raise SystemExit("Description cannot contain angle brackets")
+for link in re.findall(r"\]\((references/[^)]+)\)", text):
+    if not (path.parent / link).is_file():
+        raise SystemExit(f"Missing referenced resource: {link}")
+required = ["Select the Mode", "### 7. Review the Interview", "For post-interview review, produce:", "Additional review checks:"]
+for item in required:
+    if item not in text:
+        raise SystemExit(f"Missing review integration: {item}")
 print("interview-skills repo validation passed")
 PY
