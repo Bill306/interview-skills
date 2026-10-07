@@ -61,6 +61,18 @@ Use this checklist to structure interview preparation briefs. Keep the answer co
    - Interviewer-specific questions
    - Avoid questions easily answered by the first page of the company website
 
+## Must-Know List Before the First Round
+
+The user should be able to speak these five items from memory, without notes. Treat them as a self-check before walking into round one:
+
+1. **CEO**: who they are, their background, and how they talk about the company
+2. **Recent deals**: for banking, investing, or public-company roles, recent IPOs, M&A, and debt issuances, landmark deals, and 3–5 deals in the user's industry of interest
+3. **Stock performance**: for public companies, recent share-price movement and its main drivers
+4. **Core values**: the company's stated values and operating principles
+5. **Differentiated advantage**: what the company does that competitors cannot easily copy
+
+Adapt by role. Deals and stock performance fit finance tracks and public companies; for other roles or private companies, use equivalents such as funding rounds, product launches, and business momentum signals. Verify each item against current sources and label anything that cannot be confirmed.
+
 ## Source Quality Labels
 
 Use source labels when summarizing evidence:
@@ -71,6 +83,10 @@ Use source labels when summarizing evidence:
 - Inferred: reasoned conclusion from multiple facts; state the basis
 
 ## Question Patterns
+
+A strong question is context first, question second: two or three sentences of setup that cite what was actually found, then one focused question. The setup shows the interviewer the user's reasoning, demonstrates homework, and signals genuine interest. Avoid naked open-ended questions ("How do you see the market?"), hollow one-liners, and macro questions disconnected from the interviewer's own work.
+
+Worked example, from interview-coaching material: a candidate read the interviewer's Bloomberg profile and noticed that an ETF tracking China A-shares used a synthetic derivative underlying instead of real stocks. In the interview she described what she had read and asked why the product was structured that way. A scheduled 15-minute conversation turned into a 30-minute discussion of product design, client preference, and tracking error, and she received the offer. Treat this story as an anecdotal illustration of the method, not as verified evidence about any firm.
 
 Company strategy:
 
@@ -88,6 +104,18 @@ Interviewer-specific:
 
 ```text
 I saw you worked on [public professional topic]. How does that experience shape what you look for in this role?
+```
+
+Career transition:
+
+```text
+I saw on LinkedIn that you moved from [group or firm] to [group or firm]. What changed in the work you do, and how did that transition go?
+```
+
+Deal or business detail:
+
+```text
+I read your interview in [publication] about [specific deal or product]. I noticed [specific detail]. What drove that choice?
 ```
 
 Culture:

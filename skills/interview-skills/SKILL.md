@@ -7,9 +7,9 @@ description: Prepare for and review job interviews. Research companies, roles, a
 
 ## Overview
 
-Build source-backed interview preparation briefs that help the user understand the company, the role, and the people they may meet. The goal is to help the user speak concretely, ask sharper questions, and avoid generic interview answers.
+The skill has two parts. Part 1 runs before the first interview round: build a source-backed preparation brief that helps the user understand the company, the role, and the people they may meet, so the user speaks concretely, asks sharper questions, and avoids generic interview answers.
 
-After an interview, review the user's actual notes or transcript question by question, identify recurring strengths and gaps, create an improvement plan, and draft a thank-you email grounded in the conversation.
+Part 2 runs after every interview round: review the user's actual notes or transcript question by question, identify recurring strengths and gaps, create an improvement plan, and draft a thank-you email grounded in the conversation. Each round's review feeds directly into preparation for the next round.
 
 ## When to Use
 
@@ -58,12 +58,12 @@ For post-interview review, use the supplied notes or transcript as primary evide
 
 ## Select the Mode
 
-- **Preparation:** follow steps 1–6.
-- **Own-interview review:** enter step 7 directly; do not require a new company-research project before reviewing available evidence.
+- **Preparation (Part 1, before the first round):** follow steps 1–5.
+- **Post-round review (Part 2, after every round):** enter step 6 directly; do not require a new company-research project before reviewing available evidence. Repeat after each round, and carry the findings into next-round preparation.
 - **Third-party experience:** extract question themes and practice suggestions. Do not grade the user's performance or personalize a thank-you email as if that conversation were theirs.
 - **Combined request:** deliver the requested preparation and review components, with the review grounded in the actual interview evidence.
 
-## Workflow
+## Part 1: Preparation Before the First Round
 
 ### 1. Clarify the Interview Target
 
@@ -78,6 +78,18 @@ Build a concise company profile:
 - Financial or operating trends where available: revenue, growth, margins, cash flow, guidance, retention, unit economics, or public-company KPIs
 - Competitive position, market dynamics, and the main strategic question the company appears to be facing
 - Culture, values, operating principles, and founder or leadership background
+
+#### Must-Know List
+
+Before the first round, the user should be able to speak the following from memory, without notes:
+
+1. **CEO**: who they are, their background, and how they talk about the company
+2. **Recent deals**: for banking, investing, or public-company roles, the company's recent IPOs, M&A, and debt issuances, its landmark deals, and 3–5 deals in the user's industry of interest
+3. **Stock performance**: for public companies, recent share-price movement and the main drivers behind it
+4. **Core values**: the company's stated values and operating principles
+5. **Differentiated advantage**: what the company does that competitors cannot easily copy
+
+Adapt the list to the role. Deals and stock performance apply to finance tracks and public companies; for other roles or private companies, use equivalents such as funding rounds, product launches, and business momentum signals. The same list appears as a self-check in [research-checklist.md](references/research-checklist.md).
 
 ### 3. Research the Role
 
@@ -99,9 +111,11 @@ If the interviewer is known, prepare a professional background check:
 
 Keep this section professional and restrained. The goal is to understand context, not to create a personal dossier.
 
-### 5. Build Candidate Positioning
+If public interviewer information is sparse or unavailable, say so explicitly and limit the section to confirmed role, team, or company context. Do not fill gaps with private, sensitive, or speculative details. Convert what is not publicly knowable into questions the user can ask during the interview.
 
-Translate research into interview strategy:
+### 5. Build Positioning and Produce the Prep Brief
+
+Translate research into interview strategy, then turn it into the brief:
 
 - Best-fit experiences from the user's background
 - Likely objections or gaps to prepare for
@@ -109,11 +123,24 @@ Translate research into interview strategy:
 - A company-specific answer to "Why this company?"
 - A role-specific answer to "Why this role?"
 
-### 6. Produce the Prep Brief
+#### Questions for the Interviewer
+
+Prepare questions to ask before the round; they are a required part of the brief, not an afterthought. Structure each question as context first, question second:
+
+- Open with two or three sentences of setup that cite what was actually found: the interviewer's public interview, a specific deal or product detail, a career move, or a recent company development
+- Then ask one focused question with a narrow angle the interviewer can answer concretely
+
+The setup does three things: it shows the interviewer the user's reasoning, it demonstrates the homework done, and it signals genuine interest in the business. Avoid naked open-ended questions ("How do you see the market?"), lazy or hollow one-liners, and macro questions disconnected from the interviewer's own work, such as asking a banker about rate policy. Strong angles include the interviewer's career-track transitions and specific business, deal, or sector observations. See [research-checklist.md](references/research-checklist.md) for patterns and a worked example.
 
 Use the structure in [research-checklist.md](references/research-checklist.md). Adapt depth to the user's timeline: quick screen, standard prep, or deep-dive prep.
 
-### 7. Review the Interview and Draft a Thank-You Email
+State what the brief covers and what remains unknown, including limited interviewer public information.
+
+## Part 2: Review and Thank-You Email After Every Round
+
+Run Part 2 after each interview round, not just the last one. The debrief of round N becomes input to preparing round N+1: improved answers, unresolved gaps, and newly learned information about the team all feed back into Part 1 for the next round.
+
+### 6. Review the Interview and Draft a Thank-You Email
 
 Use [post-interview-review.md](references/post-interview-review.md) for the review structure, evidence rules, and email requirements:
 
@@ -125,6 +152,10 @@ Follow the supplied structure in [thank-you-email-template.md](references/thank-
 - After reviewing the user's own conversation, generate a concise thank-you email with a subject and body, unless the user opts out. Use actual discussed topics and confirmed user facts; list personalization evidence and missing placeholders outside the email.
 - Use the user's requested email language, otherwise the interview language; if neither is known, default to English and state the assumption. Provide matching bilingual versions when requested.
 - Generate drafts only. Send no email without a separate explicit user instruction naming the recipient or destination and the message to send.
+
+#### Follow-Up Basics
+
+Help the user with the practical follow-up, not just the email text. Interviewers often cannot share personal contact details, so use business channels: ask for a business card or work email at the end of the interview; if forgotten, suggest asking HR or using the company's standard business-email pattern, verified before sending. Keep the follow-up short, roughly 100–200 words; assume the interviewer has forgotten the user's name and include a hook that reminds them; proofread to zero typos. Set expectations: no reply is normal, and repeated chasers should not be sent. Details live in [thank-you-email-template.md](references/thank-you-email-template.md).
 
 ## Output Format
 

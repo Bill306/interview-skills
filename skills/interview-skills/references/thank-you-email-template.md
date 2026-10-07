@@ -13,6 +13,21 @@ Use the user's supplied template as the default structure for the email generate
 - Include a mobile number only if the user supplies it for this draft. Use known next-step information, or a neutral reference to next steps; do not invent a decision date. Resolve any remaining placeholders before treating the draft as ready to send.
 - Prefer the user's requested template over the usual 100–150-word default when necessary. Supply matching Chinese and English drafts when requested, and generate email drafts only.
 
+## Follow-Up Basics
+
+Getting in touch after the interview:
+
+- Interviewers are often trained not to share personal contact details such as WeChat, phone numbers, or WhatsApp with candidates. Respect that boundary and use business channels only.
+- At the end of the interview, asking for a business card is acceptable and normal. If the interviewer has no card, ask for a business email address; work email is a professional, monitored channel, and most interviewers will share it.
+- If the user forgot to ask, suggest two fallbacks: ask the HR coordinator for the interviewer's business email, or use the company's standard business-email pattern, for example firstname.lastname@firm.com, verifying the domain and spelling before sending.
+
+Writing the follow-up:
+
+- Keep it short: roughly 100–200 words; shorter is better.
+- Assume the interviewer has forgotten the user's name. Every follow-up needs a hook that reminds them who the user is. The question-and-research paragraph is one hook; referencing a specific topic from the conversation and, where appropriate, proposing to continue it over coffee is another. A declined invitation is normal.
+- Zero typos. Proofread names, company, role, and grammar before treating a draft as ready to send.
+- Set expectations with the user: no reply is normal and not a negative signal; a reply usually indicates the interview went well. Do not send repeated chasers.
+
 ## User-Supplied Original
 
 ```text

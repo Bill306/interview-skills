@@ -67,6 +67,7 @@ After reviewing the user's actual conversation, draft an email automatically unl
 - Close with continued interest and willingness to provide relevant additional information. Promise an attachment or follow-up item only if the user has authorized it and it is available.
 - Keep the user's self-critique, performance scoring, guessed reactions, and lengthy corrected answers in the review. The supplied template requests an optional concise answer follow-up; include it only when the question is real and the research is completed and verified. Other corrections require a user request and verified facts.
 - Use `[Interviewer name]`, `[Role]`, `[Company]`, or `[Your name]` for missing values and list placeholders needing confirmation. Do not search for private email addresses.
+- For how to reach the interviewer and how to frame the follow-up, apply the follow-up basics in [thank-you-email-template.md](thank-you-email-template.md): business channels only, a short email with a hook that reminds the interviewer who the user is, zero typos, and no repeated chasers; no reply is normal.
 - For multiple interviewers, attribute each topic only to the speaker supported by the source. If attribution is unclear, use a collective draft or ask; do not invent individual conversations.
 - Produce a draft only. Sending requires a separate explicit user instruction naming the recipient or destination and the message to send.
 

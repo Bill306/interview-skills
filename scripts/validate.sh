@@ -47,7 +47,7 @@ if "<" in description or ">" in description:
 for link in re.findall(r"\]\((references/[^)]+)\)", text):
     if not (path.parent / link).is_file():
         raise SystemExit(f"Missing referenced resource: {link}")
-required = ["Select the Mode", "### 7. Review the Interview", "For post-interview review, produce:", "Additional review checks:"]
+required = ["Select the Mode", "Part 1: Preparation Before the First Round", "Must-Know List", "Part 2: Review and Thank-You Email After Every Round", "### 6. Review the Interview", "For post-interview review, produce:", "Additional review checks:"]
 for item in required:
     if item not in text:
         raise SystemExit(f"Missing review integration: {item}")
